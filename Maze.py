@@ -115,7 +115,7 @@ while running:
     # Draw the scene
     screen.fill((0, 0, 0))
     for wall in walls:
-        pygame.draw.rect(screen, (255, 255, 255), wall.rect)
-    pygame.draw.rect(screen, (255, 0, 0), end_rect)
-    pygame.draw.rect(screen, (255, 200, 0), player.rect)
+        pygame.draw.rect(screen, (104, 196, 210), wall.rect)
+    pygame.draw.rect(screen, (122, 68, 230), end_rect)
+    pygame.draw.rect(screen, (239, 163, 97), player.rect)
     pygame.display.flip()
