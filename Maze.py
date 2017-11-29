@@ -175,7 +175,7 @@ while running: # while not at the end of the maze
 		print("No Solution")
 	print("YOU WIN")
 
-	t.sleep(3) # display game for 5 secs after completion
+	t.sleep(3) # display game after completion
 	running = False
 
 
